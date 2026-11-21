@@ -1,0 +1,224 @@
+<!-- Generated with DeepSeek -->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANIFEST</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html">
+                    <img class="logo" src="images/logo_finish.png" alt="MANIFEST">
+                </a>
+            </div>
+
+            <nav class="header__menu">
+                <a class="header__menu__item home-item" href="index.html">
+                    <span class="menu-item">Главная</span>
+                </a>
+                <a class="header__menu__item" href="index.html#about">
+                    <span class="menu-item">О нас</span>
+                </a>
+                <a class="header__menu__item" href="Employees/employees.html">
+                    <span class="menu-item">Сотрудники</span>
+                </a>
+                <a class="header__menu__item" href="index.html#support">
+                    <span class="menu-item">Поддержка</span>
+                </a>
+            </nav>
+
+            <button class="burger-menu" id="burgerMenu" aria-label="Открыть меню">
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+            </button>
+
+            <div class="menu-overlay" id="menuOverlay">
+                <a class="menu-overlay__item active" href="index.html">Главная</a>
+                <a class="menu-overlay__item" href="index.html#about">О нас</a>
+                <a class="menu-overlay__item" href="Employees/employees.html">Сотрудники</a>
+                <a class="menu-overlay__item" href="index.html#support">Поддержка</a>
+
+                <div class="menu-overlay__join">
+                    <button class="join-button">Вступить</button>
+                </div>
+            </div>
+
+            <div class="header__join">
+                <button class="join-button">Вступить</button>
+            </div>
+        </header>
+
+        <main class="content">
+            <div id="startWrapper" class="start">
+                <video id="videoBackground" class="start__background" autoplay muted loop playsinline>
+                    <source src="video/background.mp4" type="video/mp4">
+                </video>
+
+                <div class="start__info">
+                    <div class="start__info__header">
+                        MANIFEST
+                    </div>
+
+                    <div class="start__info__description">
+                        Элитная семья проекта Grand Mobile, 28 сервер
+                        <br>
+                        Мы рады приветсвовать новых игроков и вместе с ними становиться ещё лучше
+                    </div>
+
+                    <div class="start__info__join">
+                        <button class="join-button join-button--bigger">Вступить</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="events">
+                <div class="events__header">
+                    <div class="events__header__title">
+                        Новости
+                    </div>
+
+                    <div class="events__header__buttons">
+                        <button class="events__left" id="eventBtn_Left">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none"
+                                style="display: block; margin: auto;">
+                                <path d="M15 4L7 12L15 20" stroke="white" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+
+                        <button class="events__right" id="eventBtn_Right">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none"
+                                style="display: block; margin: auto;">
+                                <path d="M9 4L17 12L9 20" stroke="white" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="events__cards" id="cards">
+                    <div class="events__card" id="eventsCard1">
+                        <div class="events__card__image">
+                            <div class="no-image"></div>
+                        </div>
+
+                        <div class="events__card__title">
+                            Создание веб-сайта MANIFEST
+                        </div>
+
+                        <div class="events__card__date">
+                            16 августа 2026
+                        </div>
+
+                        <div class="events__card__description">
+                            Команда Infoprom начала разработку современного веб-сайта для семьи MANIFEST на RP-проекте
+                            Grand Mobile!
+                        </div>
+                    </div>
+
+                    <div class="events__card" id="eventsCard2">
+                        <div class="events__card__image">
+                            <div class="no-image"></div>
+                        </div>
+
+                        <div class="events__card__title">
+                            Объявление 2
+                        </div>
+
+                        <div class="events__card__date">
+                            16 августа 2026
+                        </div>
+
+                        <div class="events__card__description">
+                            Команда Infoprom начала разработку современного веб-сайта для семьи MANIFEST на RP-проекте
+                            Grand Mobile!
+                        </div>
+                    </div>
+
+                    <div class="events__card" id="eventsCard3">
+                        <div class="events__card__image">
+                            <div class="no-image"></div>
+                        </div>
+
+                        <div class="events__card__title">
+                            Объявление 3
+                        </div>
+
+                        <div class="events__card__date">
+                            16 августа 2026
+                        </div>
+
+                        <div class="events__card__description">
+                            Команда Infoprom начала разработку современного веб-сайта для семьи MANIFEST на RP-проекте
+                            Grand Mobile!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map">
+                <div class="map__header">
+                    <div class="map__header__title">
+                        Мы на карте
+                    </div>
+                </div>
+
+                <div class="map__image" id="mapImageWrapper">
+                    <img class="map-image" src="images/mapLogo.png" alt="Карта" id="mapImage">
+                    <div class="map-loupe" id="mapLoupe" aria-hidden="true"></div>
+                </div>
+
+                <div class="map__hint">
+                    Мы находимся здесь-то, здесь-то, там-то, там-то...
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__ad">
+                Сайт был разработан IT компанией «Infoprom» в период с 13.08.2026 по 07.09.2026. Проект несёт
+                благотворительный характер и является единоразовой акцией, спонсируемой компанией. «Infoprom» и его
+                разработчики не несут ответственности за действия сообщества «MANIFEST» и контент публикуемый на сайте.
+                <br><br>
+                Компания активно принимает заказы на разработку приложений, сайтов и ботов (Telegram) любого типа. По
+                вопросам
+                сотрудничества:
+                t.me/ReutovDA.
+            </div>
+
+            <div class="footer__content">
+                <div class="infoprom__logo">
+                    <img class="infoprom-logo" src="images/infoprom_logo.png" alt="Infoprom">
+                </div>
+
+                <div class="footer__content__text">
+                    Infoprom, Manifest, 2026
+                </div>
+            </div>
+        </footer>
+
+        <button class="scroll-to-top" id="scrollToTopBtn" aria-label="Прокрутить наверх">
+            <svg class="scroll-to-top__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4L12 20M12 4L8 8M12 4L16 8" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
